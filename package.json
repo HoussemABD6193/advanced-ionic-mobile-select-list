@@ -1,0 +1,49 @@
+{
+  "name": "advanced-ionic-select-list",
+  "version": "0.0.1",
+  "description": "A customizable Advanced Ionic select list component for Angular.",
+  "author": "Houssem ABDELKABIR <houssem.abdelkabir@yahoo.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HoussemABD6193/advanced-ionic-select-list.git"
+  },
+  "keywords": [
+    "angular",
+    "ionic",
+    "select",
+    "component",
+    "library"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^16.2.0",
+    "@angular/core": "^16.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "main": "bundles/advnced-ionic-select-list.umd.js",
+  "module": "fesm2022/advanced-ionic-select-list.mjs",
+  "es2022": "fesm2022/advnced-ionic-select-list.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/advanced-ionic-select-list.mjs",
+      "esm": "./esm2022/advanced-ionic-select-list.mjs",
+      "default": "./fesm2022/advanced-ionic-select-list.mjs"
+    }
+  },
+  "files": [
+    "bundles/",
+    "esm2022/",
+    "fesm2022/",
+    "index.d.ts",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ]
+}
