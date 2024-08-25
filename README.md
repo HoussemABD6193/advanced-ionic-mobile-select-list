@@ -1,30 +1,30 @@
 # AdvancedIonicSelectList
 
-`advnced-ionic-select-list` is an Angular library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0 that provides a customizable Ionic select list component for Angular applications.
+`advanced-ionic-select-list` is an Angular library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0 that provides a customizable Ionic select list component for Angular applications.
 
 ## Usage
 
-First, import the AdvncedIonicSelectListModule into your Angular module.
+First, import the AdvancedIonicSelectListModule into your Angular module.
 ```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicModule } from '@ionic/angular';
 import { AppComponent } from './app.component';
-import { AdvncedIonicSelectListModule } from 'advnced-ionic-select-list';
+import { AdvancedIonicSelectListModule } from 'advanced-ionic-select-list';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
-    AdvncedIonicSelectListModule
+    AdvancedIonicSelectListModule
   ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
 ```
 
-Then,You can use the AdvncedIonicSelectListComponent in your template as follows:
+Then,You can use the AdvancedIonicSelectListComponent in your template as follows:
 ```html
 <hou-ng-advncedIonicSelectList
   [items]="items"
